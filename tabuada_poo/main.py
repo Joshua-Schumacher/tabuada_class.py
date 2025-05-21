@@ -1,7 +1,8 @@
 from classes import Tabuada
 
-tabuada_2 = Tabuada(2)
+valor = int(input("Informe um valor para calcular: "))
 
+tabuada_2 = Tabuada(valor)
 tabuada_2.soma()
 print("---"*15)
 tabuada_2.subtracao()
